@@ -1,0 +1,16 @@
+if (APR Severity of Illness Description > 1.5) and (Age Group <= 3.5) and (APR Severity of Illness Description <= 2.5) then class: Minor (proba: 98.38%) | based on 5,192 samples
+
+if (APR Severity of Illness Description > 1.5) and (Age Group <= 3.5) and (APR Severity of Illness Description > 2.5) then class: Minor (proba: 79.81%) | based on 4,889 samples
+
+if (APR Severity of Illness Description <= 1.5) and (APR Severity of Illness Code <= 3.5) and (Age Group > 2.5) then class: Major (proba: 55.22%) | based on 3,073 samples
+
+if (APR Severity of Illness Description > 1.5) and (Age Group > 3.5) and (APR Severity of Illness Description > 2.5) then class: Moderate (proba: 60.9%) | based on 1,826 samples
+
+if (APR Severity of Illness Description <= 1.5) and (APR Severity of Illness Code <= 3.5) and (Age Group <= 2.5) then class: Minor (proba: 45.15%) | based on 917 samples
+
+if (APR Severity of Illness Description <= 1.5) and (APR Severity of Illness Code > 3.5) and (Patient Disposition > 6.0) then class: Extreme (proba: 55.25%) | based on 829 samples
+
+if (APR Severity of Illness Description > 1.5) and (Age Group > 3.5) and (APR Severity of Illness Description <= 2.5) then class: Minor (proba: 65.56%) | based on 694 samples
+
+if (APR Severity of Illness Description <= 1.5) and (APR Severity of Illness Code > 3.5) and (Patient Disposition <= 6.0) then class: Extreme (proba: 86.42%) | based on 265 samples
+
